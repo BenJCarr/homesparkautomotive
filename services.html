@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Services | HomeSpark Automotive</title>
+  <link rel="icon" type="image/png" href="logo-car.png" />
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #00b8eb;
+      color: white;
+      text-align: center;
+    }
+
+    header {
+      background-color: #00b8eb;
+      border-bottom: 4px solid #0c86b8;
+      padding: 2rem 1rem 1rem;
+    }
+
+    .logo {
+      width: 180px;
+      height: auto;
+    }
+
+    .nav-bar {
+      margin-top: 1rem;
+    }
+
+    .nav-links {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+    }
+
+    .nav-links li a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      font-size: 1rem;
+      transition: color 0.3s ease;
+    }
+
+    .nav-links li a:hover {
+      color: #ffe600;
+    }
+
+    main {
+      background-color: #0c86b8;
+      background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%2300c6f5' fill-opacity='0.12'%3E%3Ccircle cx='10' cy='10' r='8' /%3E%3Crect x='40' y='20' width='10' height='20' rx='2' transform='rotate(20 40 20)' /%3E%3Cpath d='M70 65a5 5 0 0 1-10 0 5 5 0 0 1 10 0z' /%3E%3Cpath d='M5 50 L15 52 L15 48 Z' transform='rotate(-30 10 50)' /%3E%3Cpath d='M95 50 L85 52 L85 48 Z' transform='rotate(30 90 50)' /%3E%3C/g%3E%3C/svg%3E");
+      background-repeat: repeat;
+      background-size: 100px 100px;
+      padding: 40px 20px;
+    }
+
+    .container {
+      max-width: 850px;
+      margin: auto;
+      text-align: left;
+      background: rgba(255, 255, 255, 0.05);
+      padding: 30px;
+      border-radius: 10px;
+    }
+
+    .content h2 {
+      text-align: center;
+    }
+
+    .info-section {
+      margin-bottom: 3rem;
+    }
+
+    .info-section h3 {
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .info-section p {
+      margin-bottom: 1rem;
+    }
+
+    .hours {
+      background-color: rgba(255, 255, 255, 0.1);
+      padding: 1rem;
+      border-radius: 8px;
+      display: inline-block;
+    }
+
+    .hours table {
+      width: 100%;
+      color: white;
+    }
+
+    .hours td {
+      padding: 0.3rem 1rem;
+    }
+
+    .service {
+      margin-bottom: 2rem;
+    }
+
+    .service h3 {
+      margin-bottom: 0.5rem;
+      font-size: 1.3rem;
+    }
+
+    .service p {
+      margin: 0;
+    }
+
+    footer {
+      background-color: #003d56;
+      padding: 10px;
+      text-align: center;
+    }
+
+    footer a {
+      color: white;
+      text-decoration: underline;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="HomeSpark Automotive Logo" class="logo" />
+    <nav class="nav-bar">
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="content">
+        <h2>Our Services</h2>
+
+        <div class="info-section">
+          <h3>Mobile Car Wash — At Your Doorstep</h3>
+          <p>
+            HomeSpark Automotive is a fully mobile car cleaning service. Whether you're at home, at work, or anywhere else, we bring professional car cleaning directly to you — saving you time while delivering unmatched results.
+          </p>
+
+          <h3>Operating Hours</h3>
+          <div class="hours">
+            <table>
+              <tr><td>Monday – Friday:</td><td>8:00 AM – 6:00 PM</td></tr>
+              <tr><td>Saturday:</td><td>9:00 AM – 4:00 PM</td></tr>
+              <tr><td>Sunday:</td><td>Closed</td></tr>
+            </table>
+          </div>
+
+          <p style="margin-top: 1.5rem;">
+            To request a <strong>service</strong>, please use our <a href="contact.html" style="color: #ffe600; font-weight: bold;">Contact page</a>. We'll get back to you as soon as possible to confirm your booking!
+          </p>
+        </div>
+
+        <div class="service">
+          <h3>Exterior Wash</h3>
+          <p>A full 3 stage hand wash consisting of a contactless wash, contact wash and ending with a protective coating. £30</p>
+        </div>
+
+        <div class="service">
+          <h3>Interior Cleaning</h3>
+          <p>Vacuum, wipe down, and deodorizing to restore your car’s cabin comfort. £20 </p>
+        </div>
+
+        <div class="service">
+          <h3>Full Detail</h3>
+          <p>Consists of an Exterior Wash and Interior Clean. Wheel bleeding comes free! £45</p>
+        </div>
+
+        <div class="service">
+          <h3>Engine Bay Cleaning</h3>
+          <p>A careful clean of your engine bay — both safe and stunning. Currently unavailable</p>
+        </div>
+
+        <div class="service">
+          <h3>Mobile Services</h3>
+          <p>We come to you — at home, work, or wherever’s most convenient. Home only for now, contact for more information.</p>
+        </div>
+
+        <div class="service">
+          <h2>Add-Ons</h2>
+        </div>
+
+        <div class="service">
+          <h3>Wheel Cleaning</h3>
+          <p>We deep clean and bleed your wheels to remove trapped grime, brake dust, and buildup — leaving your alloys fresh, sharp, and spotless. £3</p>
+        </div>
+
+        <div class="service">
+          <h3>Carpet and Seat Cleaning</h3>
+          <p>We extract deep dirt and stains from your vehicle’s carpets using high-performance cleaning solutions — restoring freshness and removing odors. £5</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <a href="terms.html">View Terms of Service</a>
+  </footer>
+
+</body>
+</html>
